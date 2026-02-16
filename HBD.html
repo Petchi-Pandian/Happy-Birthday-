@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="HBD.css"/>
+</head>
+
+<body>
+  <main class="stage">
+    <section class="card" aria-label="Birthday Card">
+
+      <!-- Background -->
+      <div class="bg"></div>
+      <div class="overlay"></div>
+
+      <!-- Cake -->
+      <div class="cakeWrap" aria-hidden="true">
+        <div class="cake">
+          <div class="cake__top"></div>
+          <div class="cake__mid"></div>
+          <div class="cake__base"></div>
+          <div class="icing"></div>
+          <div class="plate"></div>
+
+          <div class="candle">
+            <div class="candle__stripe"></div>
+            <div class="flame"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+        <h1 class="title">Happy Birthday my freiend!❤️🦋</h1>
+
+        <div class="note">
+          <div class="wish">
+            ❤️🎈✨On this special February 18th, I hope your day is filled with joy, love, and unforgettable moments. 💫🎂
+          </div>
+
+          <div class="dear">Dear 🐭✨❣️</div>
+
+          <div class="msg">
+            🎉🎊Happy birthday to the best friend who knows me like no one else does and is that person in my life who no one else can be 💫
+          </div>
+
+          <div class="sign">
+            HBD....Nio 🧚🏻‍♂️✨🎂<br>
+            HBD...✨👸🏻🐁🌕
+          </div>
+        </div>
+      </div>
+
+      <!-- Boy image -->
+      <div class="boyFrame">
+        <img src="boy.jpg" alt="Boy Photo"
+             onerror="this.style.display='none'; this.parentElement.classList.add('noimg');">
+      </div>
+
+      <!-- Confetti -->
+      <div class="confetti" id="confetti"></div>
+
+    </section>
+  </main>
+
+  <script src="HBD.js"></script>
+</body>
+</html>
